@@ -5,7 +5,7 @@ It uses MVVM patern
 Pods included:
   1. RealmSwift
   2. RxCocoa
-  3. RXSwift - https://github.com/ReactiveX/RxSwift
+  3. RXSwift (reactive coding) - https://github.com/ReactiveX/RxSwift
   4. Alamofire (http client) - https://github.com/Alamofire/Alamofire
 
 # Get start
