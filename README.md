@@ -1,5 +1,6 @@
 # EliOS
 Template to start a great IOS project
+It uses MVVM patern
 
 # Get start
 1. Install CocoaPods: From the command line, run sudo gem install cocoapods
