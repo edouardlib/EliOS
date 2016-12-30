@@ -5,7 +5,7 @@ It uses MVVM patern
 Pods included:
   1. RealmSwift
   2. RxCocoa
-  3. RXSwift
+  3. RXSwift - https://github.com/ReactiveX/RxSwift
 
 # Get start
 1. Install CocoaPods: From the command line, run sudo gem install cocoapods
