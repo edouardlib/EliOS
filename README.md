@@ -2,6 +2,11 @@
 Template to start a great IOS project
 It uses MVVM patern
 
+Pods included:
+1. RealmSwift
+2. RxCocoa
+3. RXSwift
+
 # Get start
 1. Install CocoaPods: From the command line, run sudo gem install cocoapods
 2. Install dependencies: 
