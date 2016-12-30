@@ -6,6 +6,7 @@ Pods included:
   1. RealmSwift
   2. RxCocoa
   3. RXSwift - https://github.com/ReactiveX/RxSwift
+  4. Alamofire (http client) - https://github.com/Alamofire/Alamofire
 
 # Get start
 1. Install CocoaPods: From the command line, run sudo gem install cocoapods
@@ -19,7 +20,8 @@ Pods included:
 - TD Crashlytics 
 
 
-# Improvements list
+# Improvements list 
+(Good libraries list: https://github.com/Wolg/awesome-swift#http)
 - Data structure
 - HTTP client
 - Unit test
