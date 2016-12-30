@@ -8,10 +8,21 @@
 
 import Foundation
 import Alamofire
+import RxSwift
 
 class RestService {
     
     
-    Alamofire.request("https://httpbin.org/get")
+    let ENDPOINT = "http://google.com"
+    
+
+    func postLogin() -> Observable<WSResponse>{
+        
+        var rp = Alamofire.request(ENDPOINT).responseJSON(completionHandler: {
+            
+        })
+        
+        return nil
+    }
     
 }
