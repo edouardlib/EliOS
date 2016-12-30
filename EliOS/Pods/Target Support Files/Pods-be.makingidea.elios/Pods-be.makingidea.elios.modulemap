@@ -1,0 +1,6 @@
+framework module Pods_be_makingidea_elios {
+  umbrella header "Pods-be.makingidea.elios-umbrella.h"
+
+  export *
+  module * { export * }
+}

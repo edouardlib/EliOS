@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456BDC5B1E0930E3001493E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BDC5A1E0930E3001493E8 /* AppDelegate.swift */; };
+		456BDC601E0930E3001493E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456BDC5E1E0930E3001493E8 /* Main.storyboard */; };
+		456BDC631E0930E3001493E8 /* be_makingidea_elios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 456BDC611E0930E3001493E8 /* be_makingidea_elios.xcdatamodeld */; };
+		456BDC651E0930E3001493E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456BDC641E0930E3001493E8 /* Assets.xcassets */; };
+		456BDC681E0930E3001493E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456BDC661E0930E3001493E8 /* LaunchScreen.storyboard */; };
+		456BDC731E0930E3001493E8 /* be_makingidea_eliosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BDC721E0930E3001493E8 /* be_makingidea_eliosTests.swift */; };
+		456BDC7E1E0930E3001493E8 /* be_makingidea_eliosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BDC7D1E0930E3001493E8 /* be_makingidea_eliosUITests.swift */; };
+		456BDC931E09372E001493E8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 456BDC921E09372E001493E8 /* Podfile */; };
+		45AFF6FA1E1679CB00045635 /* RestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFF6F91E1679CB00045635 /* RestService.swift */; };
+		45AFF6FC1E1679DA00045635 /* PrefrenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFF6FB1E1679DA00045635 /* PrefrenceHelper.swift */; };
+		45C0A3871E1554CB0078FB51 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3861E1554CB0078FB51 /* MainViewController.swift */; };
+		45C0A3891E1556C60078FB51 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3881E1556C60078FB51 /* MainPresenter.swift */; };
+		45C0A38B1E1559B30078FB51 /* MainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A38A1E1559B30078FB51 /* MainProtocol.swift */; };
+		45C0A3901E1563C80078FB51 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C0A38F1E1563C80078FB51 /* MainView.xib */; };
+		45C0A3921E15671D0078FB51 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3911E15671D0078FB51 /* BaseViewController.swift */; };
+		45C0A3941E156B8E0078FB51 /* MvpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3931E156B8E0078FB51 /* MvpView.swift */; };
+		45C0A3981E165A060078FB51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3971E165A060078FB51 /* LoginViewController.swift */; };
+		45C0A39A1E165A3A0078FB51 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3991E165A3A0078FB51 /* LoginPresenter.swift */; };
+		45C0A39C1E165A4C0078FB51 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A39B1E165A4C0078FB51 /* LoginProtocol.swift */; };
+		45C0A39E1E165A5C0078FB51 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C0A39D1E165A5C0078FB51 /* Login.xib */; };
+		45C0A3A01E165F5D0078FB51 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A39F1E165F5D0078FB51 /* DataManager.swift */; };
+		45C0A3A41E1662BF0078FB51 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3A31E1662BF0078FB51 /* User.swift */; };
+		EFD0097BA2B9AC6C61D8A84E /* Pods_be_makingidea_elios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA72A57F80C5DC5968C3D7F /* Pods_be_makingidea_elios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		456BDC6F1E0930E3001493E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456BDC4F1E0930E3001493E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456BDC561E0930E3001493E8;
+			remoteInfo = be.makingidea.elios;
+		};
+		456BDC7A1E0930E3001493E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456BDC4F1E0930E3001493E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456BDC561E0930E3001493E8;
+			remoteInfo = be.makingidea.elios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242559B2C78A3C4E8717B137 /* Pods-be.makingidea.elios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-be.makingidea.elios.release.xcconfig"; path = "Pods/Target Support Files/Pods-be.makingidea.elios/Pods-be.makingidea.elios.release.xcconfig"; sourceTree = "<group>"; };
+		456BDC571E0930E3001493E8 /* be.makingidea.elios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = be.makingidea.elios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456BDC5A1E0930E3001493E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		456BDC5F1E0930E3001493E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		456BDC621E0930E3001493E8 /* be_makingidea_elios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = be_makingidea_elios.xcdatamodel; sourceTree = "<group>"; };
+		456BDC641E0930E3001493E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456BDC671E0930E3001493E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		456BDC691E0930E3001493E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456BDC6E1E0930E3001493E8 /* be.makingidea.eliosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = be.makingidea.eliosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456BDC721E0930E3001493E8 /* be_makingidea_eliosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = be_makingidea_eliosTests.swift; sourceTree = "<group>"; };
+		456BDC741E0930E3001493E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456BDC791E0930E3001493E8 /* be.makingidea.eliosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = be.makingidea.eliosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456BDC7D1E0930E3001493E8 /* be_makingidea_eliosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = be_makingidea_eliosUITests.swift; sourceTree = "<group>"; };
+		456BDC7F1E0930E3001493E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456BDC921E09372E001493E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45AFF6F91E1679CB00045635 /* RestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestService.swift; sourceTree = "<group>"; };
+		45AFF6FB1E1679DA00045635 /* PrefrenceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefrenceHelper.swift; sourceTree = "<group>"; };
+		45C0A3861E1554CB0078FB51 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45C0A3881E1556C60078FB51 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		45C0A38A1E1559B30078FB51 /* MainProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProtocol.swift; sourceTree = "<group>"; };
+		45C0A38F1E1563C80078FB51 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		45C0A3911E15671D0078FB51 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		45C0A3931E156B8E0078FB51 /* MvpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MvpView.swift; sourceTree = "<group>"; };
+		45C0A3971E165A060078FB51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45C0A3991E165A3A0078FB51 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		45C0A39B1E165A4C0078FB51 /* LoginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		45C0A39D1E165A5C0078FB51 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		45C0A39F1E165F5D0078FB51 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		45C0A3A31E1662BF0078FB51 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8CA72A57F80C5DC5968C3D7F /* Pods_be_makingidea_elios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_be_makingidea_elios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00362789834487CE3EDB97D /* Pods-be.makingidea.elios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-be.makingidea.elios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-be.makingidea.elios/Pods-be.makingidea.elios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456BDC541E0930E3001493E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD0097BA2B9AC6C61D8A84E /* Pods_be_makingidea_elios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BDC6B1E0930E3001493E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BDC761E0930E3001493E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456BDC4E1E0930E3001493E8 = {
+			isa = PBXGroup;
+			children = (
+				456BDC921E09372E001493E8 /* Podfile */,
+				456BDC591E0930E3001493E8 /* be.makingidea.elios */,
+				456BDC711E0930E3001493E8 /* be.makingidea.eliosTests */,
+				456BDC7C1E0930E3001493E8 /* be.makingidea.eliosUITests */,
+				456BDC581E0930E3001493E8 /* Products */,
+				DB316F11B97EEE9205109653 /* Pods */,
+				4C004906BF9B197C79ACBA1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		456BDC581E0930E3001493E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456BDC571E0930E3001493E8 /* be.makingidea.elios.app */,
+				456BDC6E1E0930E3001493E8 /* be.makingidea.eliosTests.xctest */,
+				456BDC791E0930E3001493E8 /* be.makingidea.eliosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456BDC591E0930E3001493E8 /* be.makingidea.elios */ = {
+			isa = PBXGroup;
+			children = (
+				456BDC911E09364F001493E8 /* Util */,
+				456BDC901E0935E5001493E8 /* UI */,
+				456BDC8C1E093591001493E8 /* Data */,
+				456BDC5A1E0930E3001493E8 /* AppDelegate.swift */,
+				456BDC641E0930E3001493E8 /* Assets.xcassets */,
+				456BDC691E0930E3001493E8 /* Info.plist */,
+				456BDC611E0930E3001493E8 /* be_makingidea_elios.xcdatamodeld */,
+			);
+			path = be.makingidea.elios;
+			sourceTree = "<group>";
+		};
+		456BDC711E0930E3001493E8 /* be.makingidea.eliosTests */ = {
+			isa = PBXGroup;
+			children = (
+				456BDC721E0930E3001493E8 /* be_makingidea_eliosTests.swift */,
+				456BDC741E0930E3001493E8 /* Info.plist */,
+			);
+			path = be.makingidea.eliosTests;
+			sourceTree = "<group>";
+		};
+		456BDC7C1E0930E3001493E8 /* be.makingidea.eliosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				456BDC7D1E0930E3001493E8 /* be_makingidea_eliosUITests.swift */,
+				456BDC7F1E0930E3001493E8 /* Info.plist */,
+			);
+			path = be.makingidea.eliosUITests;
+			sourceTree = "<group>";
+		};
+		456BDC8B1E093586001493E8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				456BDC5E1E0930E3001493E8 /* Main.storyboard */,
+				456BDC661E0930E3001493E8 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		456BDC8C1E093591001493E8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				456BDC8F1E0935DC001493E8 /* Remote */,
+				456BDC8E1E0935D6001493E8 /* Local */,
+				456BDC8D1E0935BF001493E8 /* Model */,
+				45C0A39F1E165F5D0078FB51 /* DataManager.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		456BDC8D1E0935BF001493E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45C0A3A31E1662BF0078FB51 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		456BDC8E1E0935D6001493E8 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				45AFF6FB1E1679DA00045635 /* PrefrenceHelper.swift */,
+			);
+			name = Local;
+			sourceTree = "<group>";
+		};
+		456BDC8F1E0935DC001493E8 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				45AFF6F91E1679CB00045635 /* RestService.swift */,
+			);
+			name = Remote;
+			sourceTree = "<group>";
+		};
+		456BDC901E0935E5001493E8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				45C0A38C1E155A640078FB51 /* base */,
+				45C0A3831E154D9B0078FB51 /* login */,
+				45C0A3821E154D8C0078FB51 /* main */,
+				456BDC8B1E093586001493E8 /* Storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		456BDC911E09364F001493E8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		45C0A3821E154D8C0078FB51 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				45C0A3861E1554CB0078FB51 /* MainViewController.swift */,
+				45C0A3881E1556C60078FB51 /* MainPresenter.swift */,
+				45C0A38A1E1559B30078FB51 /* MainProtocol.swift */,
+				45C0A38F1E1563C80078FB51 /* MainView.xib */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		45C0A3831E154D9B0078FB51 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				45C0A3971E165A060078FB51 /* LoginViewController.swift */,
+				45C0A3991E165A3A0078FB51 /* LoginPresenter.swift */,
+				45C0A39B1E165A4C0078FB51 /* LoginProtocol.swift */,
+				45C0A39D1E165A5C0078FB51 /* Login.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		45C0A38C1E155A640078FB51 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				45C0A3911E15671D0078FB51 /* BaseViewController.swift */,
+				45C0A3931E156B8E0078FB51 /* MvpView.swift */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		4C004906BF9B197C79ACBA1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA72A57F80C5DC5968C3D7F /* Pods_be_makingidea_elios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB316F11B97EEE9205109653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E00362789834487CE3EDB97D /* Pods-be.makingidea.elios.debug.xcconfig */,
+				242559B2C78A3C4E8717B137 /* Pods-be.makingidea.elios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456BDC561E0930E3001493E8 /* be.makingidea.elios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456BDC821E0930E3001493E8 /* Build configuration list for PBXNativeTarget "be.makingidea.elios" */;
+			buildPhases = (
+				4423111685EA0DB40CAB6CDF /* [CP] Check Pods Manifest.lock */,
+				456BDC531E0930E3001493E8 /* Sources */,
+				456BDC541E0930E3001493E8 /* Frameworks */,
+				456BDC551E0930E3001493E8 /* Resources */,
+				31461D0EEBB9D1FB4DEEBCD0 /* [CP] Embed Pods Frameworks */,
+				1D5DABF7D119277B8A7A5890 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = be.makingidea.elios;
+			productName = be.makingidea.elios;
+			productReference = 456BDC571E0930E3001493E8 /* be.makingidea.elios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		456BDC6D1E0930E3001493E8 /* be.makingidea.eliosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456BDC851E0930E3001493E8 /* Build configuration list for PBXNativeTarget "be.makingidea.eliosTests" */;
+			buildPhases = (
+				456BDC6A1E0930E3001493E8 /* Sources */,
+				456BDC6B1E0930E3001493E8 /* Frameworks */,
+				456BDC6C1E0930E3001493E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456BDC701E0930E3001493E8 /* PBXTargetDependency */,
+			);
+			name = be.makingidea.eliosTests;
+			productName = be.makingidea.eliosTests;
+			productReference = 456BDC6E1E0930E3001493E8 /* be.makingidea.eliosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		456BDC781E0930E3001493E8 /* be.makingidea.eliosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456BDC881E0930E3001493E8 /* Build configuration list for PBXNativeTarget "be.makingidea.eliosUITests" */;
+			buildPhases = (
+				456BDC751E0930E3001493E8 /* Sources */,
+				456BDC761E0930E3001493E8 /* Frameworks */,
+				456BDC771E0930E3001493E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456BDC7B1E0930E3001493E8 /* PBXTargetDependency */,
+			);
+			name = be.makingidea.eliosUITests;
+			productName = be.makingidea.eliosUITests;
+			productReference = 456BDC791E0930E3001493E8 /* be.makingidea.eliosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456BDC4F1E0930E3001493E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Edouard Libion";
+				TargetAttributes = {
+					456BDC561E0930E3001493E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3Y2A34ZM8Z;
+						ProvisioningStyle = Automatic;
+					};
+					456BDC6D1E0930E3001493E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 456BDC561E0930E3001493E8;
+					};
+					456BDC781E0930E3001493E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 456BDC561E0930E3001493E8;
+					};
+				};
+			};
+			buildConfigurationList = 456BDC521E0930E3001493E8 /* Build configuration list for PBXProject "be.makingidea.elios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456BDC4E1E0930E3001493E8;
+			productRefGroup = 456BDC581E0930E3001493E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456BDC561E0930E3001493E8 /* be.makingidea.elios */,
+				456BDC6D1E0930E3001493E8 /* be.makingidea.eliosTests */,
+				456BDC781E0930E3001493E8 /* be.makingidea.eliosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456BDC551E0930E3001493E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456BDC681E0930E3001493E8 /* LaunchScreen.storyboard in Resources */,
+				456BDC651E0930E3001493E8 /* Assets.xcassets in Resources */,
+				456BDC931E09372E001493E8 /* Podfile in Resources */,
+				456BDC601E0930E3001493E8 /* Main.storyboard in Resources */,
+				45C0A3901E1563C80078FB51 /* MainView.xib in Resources */,
+				45C0A39E1E165A5C0078FB51 /* Login.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BDC6C1E0930E3001493E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BDC771E0930E3001493E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D5DABF7D119277B8A7A5890 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-be.makingidea.elios/Pods-be.makingidea.elios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31461D0EEBB9D1FB4DEEBCD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-be.makingidea.elios/Pods-be.makingidea.elios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4423111685EA0DB40CAB6CDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456BDC531E0930E3001493E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C0A3941E156B8E0078FB51 /* MvpView.swift in Sources */,
+				45AFF6FA1E1679CB00045635 /* RestService.swift in Sources */,
+				45C0A3891E1556C60078FB51 /* MainPresenter.swift in Sources */,
+				45C0A39A1E165A3A0078FB51 /* LoginPresenter.swift in Sources */,
+				456BDC631E0930E3001493E8 /* be_makingidea_elios.xcdatamodeld in Sources */,
+				456BDC5B1E0930E3001493E8 /* AppDelegate.swift in Sources */,
+				45C0A38B1E1559B30078FB51 /* MainProtocol.swift in Sources */,
+				45C0A3921E15671D0078FB51 /* BaseViewController.swift in Sources */,
+				45C0A39C1E165A4C0078FB51 /* LoginProtocol.swift in Sources */,
+				45C0A3A41E1662BF0078FB51 /* User.swift in Sources */,
+				45AFF6FC1E1679DA00045635 /* PrefrenceHelper.swift in Sources */,
+				45C0A3A01E165F5D0078FB51 /* DataManager.swift in Sources */,
+				45C0A3981E165A060078FB51 /* LoginViewController.swift in Sources */,
+				45C0A3871E1554CB0078FB51 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BDC6A1E0930E3001493E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456BDC731E0930E3001493E8 /* be_makingidea_eliosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456BDC751E0930E3001493E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456BDC7E1E0930E3001493E8 /* be_makingidea_eliosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456BDC701E0930E3001493E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456BDC561E0930E3001493E8 /* be.makingidea.elios */;
+			targetProxy = 456BDC6F1E0930E3001493E8 /* PBXContainerItemProxy */;
+		};
+		456BDC7B1E0930E3001493E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456BDC561E0930E3001493E8 /* be.makingidea.elios */;
+			targetProxy = 456BDC7A1E0930E3001493E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		456BDC5E1E0930E3001493E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456BDC5F1E0930E3001493E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		456BDC661E0930E3001493E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456BDC671E0930E3001493E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		456BDC801E0930E3001493E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		456BDC811E0930E3001493E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456BDC831E0930E3001493E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00362789834487CE3EDB97D /* Pods-be.makingidea.elios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Y2A34ZM8Z;
+				INFOPLIST_FILE = be.makingidea.elios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-elios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		456BDC841E0930E3001493E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242559B2C78A3C4E8717B137 /* Pods-be.makingidea.elios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Y2A34ZM8Z;
+				INFOPLIST_FILE = be.makingidea.elios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-elios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		456BDC861E0930E3001493E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = be.makingidea.eliosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-eliosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/be.makingidea.elios.app/be.makingidea.elios";
+			};
+			name = Debug;
+		};
+		456BDC871E0930E3001493E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = be.makingidea.eliosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-eliosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/be.makingidea.elios.app/be.makingidea.elios";
+			};
+			name = Release;
+		};
+		456BDC891E0930E3001493E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = be.makingidea.eliosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-eliosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = be.makingidea.elios;
+			};
+			name = Debug;
+		};
+		456BDC8A1E0930E3001493E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = be.makingidea.eliosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-eliosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = be.makingidea.elios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456BDC521E0930E3001493E8 /* Build configuration list for PBXProject "be.makingidea.elios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456BDC801E0930E3001493E8 /* Debug */,
+				456BDC811E0930E3001493E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456BDC821E0930E3001493E8 /* Build configuration list for PBXNativeTarget "be.makingidea.elios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456BDC831E0930E3001493E8 /* Debug */,
+				456BDC841E0930E3001493E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456BDC851E0930E3001493E8 /* Build configuration list for PBXNativeTarget "be.makingidea.eliosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456BDC861E0930E3001493E8 /* Debug */,
+				456BDC871E0930E3001493E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456BDC881E0930E3001493E8 /* Build configuration list for PBXNativeTarget "be.makingidea.eliosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456BDC891E0930E3001493E8 /* Debug */,
+				456BDC8A1E0930E3001493E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		456BDC611E0930E3001493E8 /* be_makingidea_elios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				456BDC621E0930E3001493E8 /* be_makingidea_elios.xcdatamodel */,
+			);
+			currentVersion = 456BDC621E0930E3001493E8 /* be_makingidea_elios.xcdatamodel */;
+			path = be_makingidea_elios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 456BDC4F1E0930E3001493E8 /* Project object */;
+}
