@@ -1,5 +1,5 @@
 # EliOS
-Template to start a great IOS project
+Template to start a great IOS project in Swift 3
 It uses MVVM patern
 
 Pods included:
