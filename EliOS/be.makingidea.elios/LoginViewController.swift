@@ -26,6 +26,10 @@ class LoginViewController: BaseViewController, LoginProtocol {
     // Life cycle
     //
     
+    override func loadView() {
+        Bundle.main.loadNibNamed("LoginView", owner: self, options: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         mPresenter.attachView(view: self)
@@ -37,9 +41,12 @@ class LoginViewController: BaseViewController, LoginProtocol {
     // Actions
     //
     
-    @IBAction func onLoginButtonClicked(_ sender: Any) {
+    @IBAction func onNavigateButtonClicked(_ sender: Any) {
         performSegue(withIdentifier: "showMain", sender: self)
     }
+
+    
+    
     
     //
     // View methods implementation

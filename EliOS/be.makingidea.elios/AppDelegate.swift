@@ -8,15 +8,47 @@
 
 import UIKit
 import CoreData
+import SwiftyBeaver
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static let log = SwiftyBeaver.self
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        //
+        // Add logging business
+        //
+        
+        let console = ConsoleDestination()  // log to Xcode Console
+        //let file = FileDestination()  // log to default swiftybeaver.log file
+        
+        // add the destinations to SwiftyBeaver
+        AppDelegate.log.addDestination(console)
+        //log.addDestination(file)
+        
+        
+        //
+        //  DB Migration
+        //
+        
+        Realm.Configuration.defaultConfiguration = Realm.Configuration(schemaVersion: DatabaseMigration.DB_VERSION, migrationBlock: DatabaseMigration.migrationBlock)
+        
+        
+        //
+        // Launch backgound service
+        //
+            
+        SyncService.getInstance().startSyncService()
+        
+        
+
+        
+
+        
         return true
     }
 

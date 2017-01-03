@@ -7,16 +7,30 @@
 //
 
 import Foundation
+import ObjectMapper
 
-class WSResponse{//<D : NSObject> {
+class WSResponse<D : AnyObject> : Mappable {
     
-    let id: Int
-    let success: Bool
-    let successMessage: String
-    let data: NSObject
-    let additionalData: String
-    let warnMessage: String
-    let errorMessage: String
+    var id: Int?
+    var success: Bool?
+    var successMessage: String?
+    var data: D?
+    var additionalData: String?
+    var warnMessage: String?
+    var errorMessage: String?
     
     
+    
+    // Mapping business
+    
+    required init?(map: Map) {
+        mapping(map: map)
+    }
+    
+    func mapping(map: Map) {
+        id <- map["Id"]
+        success <- map["Success"]
+        successMessage <- map["SucessMessage"]
+        //data <- map["Data"]
+    }
 }

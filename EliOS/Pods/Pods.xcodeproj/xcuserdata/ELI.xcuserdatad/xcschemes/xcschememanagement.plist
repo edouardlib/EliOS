@@ -9,7 +9,32 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-be.makingidea.elios.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reqres.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,7 +49,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftyJSON.xcscheme</key>
+		<key>SwiftyBeaver.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +57,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4DEE61C04BBE19D0881AAB0000CE23E1</key>
+		<key>1C0C24FF1101C96B1355ED7DB33CA720</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F343E112374A8973180FAFDEE71DDE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51950A09418F9BA44FA95C930C3E89F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CEDF2EEA4A5BD45FF90D60DB0CB1C4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +87,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94CB8C18F8AB625A18C55955B83821FF</key>
+		<key>9502FB01641FBABB78522037E882757B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5D3BDF52C036D4304372FA84B56EC13</key>
+		<key>B5C254FBEB12BDA6D69FBAE9ABCAD7FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AEB3544497D8E271E2FACBD43C0D20D4</key>
+		<key>C52D6675EBC795E455E143EA8F702071</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F89B8021CBCCEB7B27358FE5EBBB277F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

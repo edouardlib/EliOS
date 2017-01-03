@@ -7,11 +7,26 @@
 		<key>be.makingidea.elios.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4555DAB81E1AA22100DEA602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4555DADE1E1AA24400DEA602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4555DB041E1AA25000DEA602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>456BDC561E0930E3001493E8</key>
 		<dict>
 			<key>primary</key>
@@ -23,6 +38,21 @@
 			<true/>
 		</dict>
 		<key>456BDC781E0930E3001493E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>459EDB821E1AA057008965AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>459EDBA81E1AA071008965AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>459EDBCE1E1AA07F008965AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

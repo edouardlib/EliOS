@@ -21,27 +21,31 @@ class MainViewController: BaseViewController, MainProtocol {
     // Binding views
     //
     
-    @IBOutlet weak var label: UILabel! // Example
-    @IBOutlet weak var listView: UITableView! // Example
+    //@IBOutlet weak var label: UILabel! // Example
+    //@IBOutlet weak var listView: UITableView! // Example
     
     //
     // Life cycle
     //
+    
+    override func loadView() {
+        Bundle.main.loadNibNamed("MainView", owner: self, options: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         mPresenter.attachView(view: self)
         mPresenter.loadData() // Example
     }
-    
+
     
     //
     // Actions
     //
     
-    @IBAction func onButtonClicked(_ sender: Any) {
+    //@IBAction func onButtonClicked(_ sender: Any) {
         
-    }
+    //}
     
     
     //
@@ -49,7 +53,7 @@ class MainViewController: BaseViewController, MainProtocol {
     //
     
     func loadSuccess(){
-        listView.reloadData()
+       // listView.reloadData()
     }
     
     func loadError(error: String){

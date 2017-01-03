@@ -15,6 +15,8 @@
 		456BDC731E0930E3001493E8 /* be_makingidea_eliosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BDC721E0930E3001493E8 /* be_makingidea_eliosTests.swift */; };
 		456BDC7E1E0930E3001493E8 /* be_makingidea_eliosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456BDC7D1E0930E3001493E8 /* be_makingidea_eliosUITests.swift */; };
 		456BDC931E09372E001493E8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 456BDC921E09372E001493E8 /* Podfile */; };
+		4592AF781E1BE52500DD33F6 /* DatabaseMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592AF771E1BE52500DD33F6 /* DatabaseMigration.swift */; };
+		459EDB811E1A8A23008965AF /* AccountLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EDB801E1A8A23008965AF /* AccountLogin.swift */; };
 		45AFF6FA1E1679CB00045635 /* RestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFF6F91E1679CB00045635 /* RestService.swift */; };
 		45AFF6FC1E1679DA00045635 /* PrefrenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFF6FB1E1679DA00045635 /* PrefrenceHelper.swift */; };
 		45AFF6FE1E16A6B600045635 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFF6FD1E16A6B600045635 /* DatabaseHelper.swift */; };
@@ -30,7 +32,7 @@
 		45C0A3981E165A060078FB51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3971E165A060078FB51 /* LoginViewController.swift */; };
 		45C0A39A1E165A3A0078FB51 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3991E165A3A0078FB51 /* LoginPresenter.swift */; };
 		45C0A39C1E165A4C0078FB51 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A39B1E165A4C0078FB51 /* LoginProtocol.swift */; };
-		45C0A39E1E165A5C0078FB51 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C0A39D1E165A5C0078FB51 /* Login.xib */; };
+		45C0A39E1E165A5C0078FB51 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C0A39D1E165A5C0078FB51 /* LoginView.xib */; };
 		45C0A3A01E165F5D0078FB51 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A39F1E165F5D0078FB51 /* DataManager.swift */; };
 		45C0A3A41E1662BF0078FB51 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0A3A31E1662BF0078FB51 /* User.swift */; };
 		EFD0097BA2B9AC6C61D8A84E /* Pods_be_makingidea_elios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA72A57F80C5DC5968C3D7F /* Pods_be_makingidea_elios.framework */; };
@@ -69,6 +71,8 @@
 		456BDC7D1E0930E3001493E8 /* be_makingidea_eliosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = be_makingidea_eliosUITests.swift; sourceTree = "<group>"; };
 		456BDC7F1E0930E3001493E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456BDC921E09372E001493E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4592AF771E1BE52500DD33F6 /* DatabaseMigration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMigration.swift; sourceTree = "<group>"; };
+		459EDB801E1A8A23008965AF /* AccountLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountLogin.swift; sourceTree = "<group>"; };
 		45AFF6F91E1679CB00045635 /* RestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestService.swift; sourceTree = "<group>"; };
 		45AFF6FB1E1679DA00045635 /* PrefrenceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefrenceHelper.swift; sourceTree = "<group>"; };
 		45AFF6FD1E16A6B600045635 /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
@@ -84,7 +88,7 @@
 		45C0A3971E165A060078FB51 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45C0A3991E165A3A0078FB51 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		45C0A39B1E165A4C0078FB51 /* LoginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
-		45C0A39D1E165A5C0078FB51 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		45C0A39D1E165A5C0078FB51 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		45C0A39F1E165F5D0078FB51 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		45C0A3A31E1662BF0078FB51 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8CA72A57F80C5DC5968C3D7F /* Pods_be_makingidea_elios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_be_makingidea_elios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4556D49E1E1A63A400268D81 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		456BDC4E1E0930E3001493E8 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +219,7 @@
 			children = (
 				45AFF6FB1E1679DA00045635 /* PrefrenceHelper.swift */,
 				45AFF6FD1E16A6B600045635 /* DatabaseHelper.swift */,
+				4592AF771E1BE52500DD33F6 /* DatabaseMigration.swift */,
 			);
 			name = Local;
 			sourceTree = "<group>";
@@ -234,6 +246,7 @@
 		456BDC911E09364F001493E8 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				4556D49E1E1A63A400268D81 /* Extension */,
 				45AFF7081E16AFD700045635 /* Animation */,
 				45AFF7071E16AFD000045635 /* Segue */,
 				45AFF7041E16AF1100045635 /* Reachability.swift */,
@@ -245,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				45AFF6FF1E16AA6300045635 /* WSResponse.swift */,
+				459EDB801E1A8A23008965AF /* AccountLogin.swift */,
 			);
 			name = Webservice;
 			sourceTree = "<group>";
@@ -287,7 +301,7 @@
 				45C0A3971E165A060078FB51 /* LoginViewController.swift */,
 				45C0A3991E165A3A0078FB51 /* LoginPresenter.swift */,
 				45C0A39B1E165A4C0078FB51 /* LoginProtocol.swift */,
-				45C0A39D1E165A5C0078FB51 /* Login.xib */,
+				45C0A39D1E165A5C0078FB51 /* LoginView.xib */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -439,7 +453,7 @@
 				456BDC931E09372E001493E8 /* Podfile in Resources */,
 				456BDC601E0930E3001493E8 /* Main.storyboard in Resources */,
 				45C0A3901E1563C80078FB51 /* MainView.xib in Resources */,
-				45C0A39E1E165A5C0078FB51 /* Login.xib in Resources */,
+				45C0A39E1E165A5C0078FB51 /* LoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C0A3941E156B8E0078FB51 /* MvpView.swift in Sources */,
+				4592AF781E1BE52500DD33F6 /* DatabaseMigration.swift in Sources */,
 				45AFF6FE1E16A6B600045635 /* DatabaseHelper.swift in Sources */,
 				45AFF6FA1E1679CB00045635 /* RestService.swift in Sources */,
 				45C0A3891E1556C60078FB51 /* MainPresenter.swift in Sources */,
@@ -525,6 +540,7 @@
 				45C0A3921E15671D0078FB51 /* BaseViewController.swift in Sources */,
 				45C0A39C1E165A4C0078FB51 /* LoginProtocol.swift in Sources */,
 				45C0A3A41E1662BF0078FB51 /* User.swift in Sources */,
+				459EDB811E1A8A23008965AF /* AccountLogin.swift in Sources */,
 				45AFF6FC1E1679DA00045635 /* PrefrenceHelper.swift in Sources */,
 				45AFF7051E16AF1100045635 /* Reachability.swift in Sources */,
 				45C0A3A01E165F5D0078FB51 /* DataManager.swift in Sources */,
@@ -686,7 +702,7 @@
 				INFOPLIST_FILE = be.makingidea.elios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-elios";
+				PRODUCT_BUNDLE_IDENTIFIER = be.makingidea.elios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -702,7 +718,7 @@
 				INFOPLIST_FILE = be.makingidea.elios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Afelio.be-makingidea-elios";
+				PRODUCT_BUNDLE_IDENTIFIER = be.makingidea.elios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;

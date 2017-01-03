@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "456BDC561E0930E3001493E8"
-               BuildableName = "be.makingidea.elios.app"
-               BlueprintName = "be.makingidea.elios"
+               BlueprintIdentifier = "4555DAB81E1AA22100DEA602"
+               BuildableName = "be.makingidea.elios DEV.app"
+               BlueprintName = "be.makingidea.elios DEV"
                ReferencedContainer = "container:be.makingidea.elios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "456BDC6D1E0930E3001493E8"
-               BuildableName = "be.makingidea.eliosTests.xctest"
-               BlueprintName = "be.makingidea.eliosTests"
-               ReferencedContainer = "container:be.makingidea.elios.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "456BDC781E0930E3001493E8"
-               BuildableName = "be.makingidea.eliosUITests.xctest"
-               BlueprintName = "be.makingidea.eliosUITests"
-               ReferencedContainer = "container:be.makingidea.elios.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "456BDC561E0930E3001493E8"
-            BuildableName = "be.makingidea.elios.app"
-            BlueprintName = "be.makingidea.elios"
+            BlueprintIdentifier = "4555DAB81E1AA22100DEA602"
+            BuildableName = "be.makingidea.elios DEV.app"
+            BlueprintName = "be.makingidea.elios DEV"
             ReferencedContainer = "container:be.makingidea.elios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

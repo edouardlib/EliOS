@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import ObjectMapper
+import RealmSwift
 
 class User {
     

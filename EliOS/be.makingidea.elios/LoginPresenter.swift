@@ -7,13 +7,15 @@
 //
 
 import Foundation
-
+import Dispatch
+import RxSwift
 
 class LoginPresenter {
     
     weak private var viewController : LoginProtocol?
     
-    // TODO: add datamanager binding
+    var disposeBag = DisposeBag()
+
     
     func attachView(view:LoginProtocol){
         viewController = view
@@ -21,9 +23,35 @@ class LoginPresenter {
     
     func detachView() {
         viewController = nil
+        
     }
     
     func loadData(){
-        viewController?.loginSuccess()
+        let accountLogin = AccountLogin()
+        accountLogin.email = "eli@afelio.be"
+        accountLogin.pwd = "Afelio12345?"
+        accountLogin.loginType = "M"
+        
+        DataManager.instance.login(request:accountLogin)
+            // Set 3 attempts to get response
+            //.retry(3) ?? useful ??
+            // Set 30 seconds timeout
+            .timeout(30, scheduler: MainScheduler.instance)
+            // Subscribe in background thread
+            .subscribeOn(MainScheduler.instance)
+            // Observe in main thread
+            .observeOn(ConcurrentMainScheduler.instance)
+            // Subscribe on observer
+            .subscribe(
+                onNext: { data in
+
+            },
+                onError: { error in
+                    AppDelegate.log.error(error)
+            },
+                onCompleted: {
+                    AppDelegate.log.info("Request successful")
+            })
+            .addDisposableTo(disposeBag) // Prevent leaks
     }
 }

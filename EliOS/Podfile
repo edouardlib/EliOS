@@ -9,16 +9,32 @@ post_install do |installer|
     end
 end
 
+target 'be.makingidea.elios' do # Change to right appId
+
+# Realm database
+pod 'RealmSwift', '~> 2.1.2'
 
 # ReactiveX
-target 'be.makingidea.elios' do # Change to right appId
-pod 'RxSwift' ,    '~> 3.0'
-pod 'RxCocoa' ,    '~> 3.0'
+pod 'RxSwift' , '~> 3.0'
+pod 'RxCocoa' , '~> 3.0'
 
 # Http client
-pod 'Alamofire', '~> 4.0'
+pod 'Alamofire', '~> 4.1'
 
-# Json parser
-pod 'SwiftyJSON'
+# JsonObject mapper and extension for Alamofire
+pod 'ObjectMapper', '~> 2.0'
+pod 'AlamofireObjectMapper', '~> 4.0'
+
+# Logging
+pod 'SwiftyBeaver', '~> 1.1.1'
+#pod 'Timberjack', '~> 0.0.3'
+pod 'Reqres', '~> 2.0.0' # Waiting for Timberjack 0.0.3 pod
+
+# Animation
+#pod 'Spring'
+
+# Loading and caching images 
+#pod 'Kingfisher'
+
 end
 
