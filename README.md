@@ -22,7 +22,7 @@ Template to start a great IOS project in Swift 3
 3. Observable pattern from ReactiveX to do none ui tasks.
 
   # TD list
-  1. Decorator patern whit Swift Extension
+  1. Decorator patern whit Swift Extension and Delegates
 
 
 # Get start
