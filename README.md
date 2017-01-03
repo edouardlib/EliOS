@@ -42,3 +42,4 @@ Template to start a great IOS project in Swift 3
 - Dependency injections
 - Strategy pattern
 - Tasks queue
+- Firebase?
