@@ -35,4 +35,4 @@ Template to start a great IOS project in Swift 3
 (Good libraries list: https://github.com/Wolg/awesome-swift#http)
 - Data structure
 - Unit test
-
+- Script to auto generate MVVM class and .xib
