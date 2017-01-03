@@ -37,3 +37,4 @@ Template to start a great IOS project in Swift 3
 - Unit test
 - Script to auto generate MVVM class and .xib
 - Dependency injections
+- Strategy pattern
