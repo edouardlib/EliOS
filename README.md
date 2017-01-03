@@ -10,8 +10,11 @@ Pods included:
   5. ObjectMapper (Object -> JSON) - https://github.com/Hearst-DD/ObjectMapper
   6. AlamofireObjectMapper (extension) - https://github.com/tristanhimmelman/AlamofireObjectMapper
   7. SwiftyBeaver (logging) - https://github.com/SwiftyBeaver/SwiftyBeaver
-  x. TD: add crashlytics
-  x. TD: add Swifter swift
+  
+  #TD list
+  x. add crashlytics
+  x. add Swifter swift
+  x. add font-awesome 
   
 # Architecture
 1. MVVM implementation
