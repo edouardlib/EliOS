@@ -2,7 +2,7 @@
 Template to start a great IOS project in Swift 3
 It uses MVVM patern
 
-Pods included:
+# Pods included:
   1. RealmSwift
   2. RxCocoa
   3. RXSwift (reactive coding) - https://github.com/ReactiveX/RxSwift
@@ -10,11 +10,12 @@ Pods included:
   5. ObjectMapper (Object -> JSON) - https://github.com/Hearst-DD/ObjectMapper
   6. AlamofireObjectMapper (extension) - https://github.com/tristanhimmelman/AlamofireObjectMapper
   7. SwiftyBeaver (logging) - https://github.com/SwiftyBeaver/SwiftyBeaver
+  8. Reqres (logging Alamofire http requests) - https://github.com/AckeeCZ/Reqres
   
-  #TD list
-  x. add crashlytics
-  x. add Swifter swift
-  x. add font-awesome 
+  # TD list
+  1. add crashlytics
+  2. add Swifter swift
+  3. add font-awesome 
   
 # Architecture
 1. MVVM implementation
