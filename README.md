@@ -21,6 +21,10 @@ Template to start a great IOS project in Swift 3
 2. Façade pattern (DataManager singleton class access throw observables than then could access prefences, local database and web services).
 3. Observable pattern from ReactiveX to do none ui tasks.
 
+  # TD list
+  1. Decorator patern whit Swift Extension
+
+
 # Get start
 1. Install CocoaPods: From the command line, run sudo gem install cocoapods
 2. Install dependencies: 
