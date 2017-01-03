@@ -18,7 +18,7 @@ Template to start a great IOS project in Swift 3
   
 # Architecture
 1. MVVM implementation with .xib outsourced from Storyboard (Storyboard only used to implement navigation throw segways).
-2. DataManager abstraction (DataManager singleton class access throw observables than then could access prefences, local database and web services).
+2. Façade pattern (DataManager singleton class access throw observables than then could access prefences, local database and web services).
 3. Observable pattern from ReactiveX to do none ui tasks.
 
 # Get start
