@@ -8,14 +8,14 @@ Pods included:
   3. RXSwift (reactive coding) - https://github.com/ReactiveX/RxSwift
   4. Alamofire (http client) - https://github.com/Alamofire/Alamofire
   5. ObjectMapper (Object -> JSON) - https://github.com/Hearst-DD/ObjectMapper
-  6. AlamofireObjectMapper (extension of ObjectMapper for Alamofire) - https://github.com/tristanhimmelman/AlamofireObjectMapper
+  6. AlamofireObjectMapper (extension) - https://github.com/tristanhimmelman/AlamofireObjectMapper
   7. SwiftyBeaver (logging) - https://github.com/SwiftyBeaver/SwiftyBeaver
   x. TD: add crashlytics
   x. TD: add Swifter swift
   
-  # Architecture
-  1. MVVM implementation
-  2. DataManager abstraction
+# Architecture
+1. MVVM implementation
+2. DataManager abstraction
 
 # Get start
 1. Install CocoaPods: From the command line, run sudo gem install cocoapods
