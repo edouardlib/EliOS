@@ -2,7 +2,7 @@
 Template to start a great IOS project in Swift 3
 
 # Pods included:
-  1. RealmSwift
+  1. RealmSwift (database) - https://github.com/realm/realm-cocoa 
   2. RxCocoa
   3. RXSwift (reactive coding) - https://github.com/ReactiveX/RxSwift
   4. Alamofire (http client) - https://github.com/Alamofire/Alamofire
