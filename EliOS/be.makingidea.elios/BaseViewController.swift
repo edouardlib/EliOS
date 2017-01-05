@@ -12,6 +12,15 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(BaseViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
 
 }
