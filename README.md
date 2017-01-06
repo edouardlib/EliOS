@@ -17,7 +17,7 @@ Template to start a great IOS project in Swift 3
   3. add font-awesome 
   
 # Architecture
-1. MVVM implementation with .xib outsourced from Storyboard (Storyboard only used to implement navigation throw segues).
+1. MVP (model view presenter) implementation with .xib outsourced from Storyboard (Storyboard only used to implement navigation throw segues).
 2. Façade pattern (DataManager singleton class access throw observables than then could access prefences, local database and web services).
 3. Observable pattern from ReactiveX to do none ui tasks.
 
