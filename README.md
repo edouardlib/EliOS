@@ -37,6 +37,7 @@ Template to start a great IOS project in Swift 3
 2. Good libraries list: https://github.com/Wolg/awesome-swift#http
 
 # Improvements list 
+- Add Style file
 - Data structure
 - Unit test
 - Dependency injections
